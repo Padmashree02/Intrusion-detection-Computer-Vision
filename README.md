@@ -23,7 +23,7 @@ Pipeline -
 
       : Apply erosion method on the mask to remove noises
 
-      : Detect the contours from the input image as a foreground mask (input image)- results the list of each contour cardinally with (x,y) coordinate, width, hieght
+      : Detect the contours from the input image as a foreground mask (input image)- results the list of each contour cardinally with (x,y) coordinate, width, height
 
       : Sort the detected contours (descending order), find the contour which has largest area and compute the largest contour's fraction area wrt the frame's size.
 
