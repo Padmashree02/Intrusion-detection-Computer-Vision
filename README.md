@@ -25,7 +25,7 @@ Pipeline -
 
       : Detect the contours from the input image as a foreground mask (input image)- results the list of each contour cardinally with (x,y) coordinate, width, hieght
 
-      : Sort the detected contours (assecinding order), get the contour which has largest area and compute the largest contour's fraction area wrt the frame's size.
+      : Sort the detected contours (descending order), find the contour which has largest area and compute the largest contour's fraction area wrt the frame's size.
 
       : Draw the bounding box for the detected largest contour from its x,y,h,w values in each frames of the video.
 
